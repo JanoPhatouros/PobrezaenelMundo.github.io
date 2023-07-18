@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+
+	<title>La Pobreza en el Mundo</title>
+    <link rel="stylesheet" href="css/tic.css">
+    <link rel="shortcut icon" href="img/favicon.jpg">
+   
+</head>
+
+	<nav>
+		<ul>
+			<li><a href="index.html">inicio</a></li>
+			<li><a href="informacion.html">Informacion</a></li>
+			<li><a href="fuentes.html">Estadisticas</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+		</ul>
+		</nav>
+	<section>
+		<h2 class="texttitle">Complete el siguiente formulario </h2>
+		<form>
+		<fieldset>
+		<legend>Datos Personales</legend>
+		<form action="procesador.php" method="post" class="formulario">
+		<div>
+			<label for="gmail">Correo electronico</label>
+			<input type="text" name="nombre" required placeholder="Juanperez@gmail.com" />
+		</div>
+		 <div>
+			<label for="name">Nombre y apellido</label>
+			<input type="text" name="nombre" required placeholder="Juan Perez" />
+		</div>
+		<div>
+			<label for="pass">Contraseña</label>
+			<input type="password" name="pass" required  maxlength="12"  />
+		</div>
+		<div>Fecha <input type="date" name="fecha"></div>
+		<div>Telefono <input type="number" name="telefono" placeholder="1111-2222" required maxlength="9"></div>
+		  <div>
+			<label for="sexo">Sexo</label>
+			<ul>
+				<li>
+					<label><input type="radio" name="sexo" value="hombre" >Hombre</label>
+				</li>
+				<li>
+					<label><input type="radio" name="sexo" value="mujer">Mujer</label>
+				</li>
+			    <li>
+					<label><input type="radio" name="sexo" value="ninguno">Prefiero no decirlo</label>
+				</li>
+                <li>
+					<label><input type="radio" name="sexo" value="otro">Otro</label>
+				</li>
+           </ul>
+		</div>
+		
+		<div>
+			<label for="titulo">Titulo</label>
+			<select name="titulo" >
+				<option value="primario">Primario</option>
+				<option value="secundario">Secundario</option>
+				<option value="terciario">Terciario</option>
+				<option value="universitario">Universitario</option>
+			    <option value="ninguno">Ninguno</option>
+			</select>
+		</div>
+        
+		<div>
+			<textarea name="texto" rows="4" cols="40" placeholder="Comentarios"></textarea>
+		</div>
+          </fieldset> 
+		<div>
+			<input type="submit" value="Enviar" />
+		</div>
+      
+	</form> 
+	</section>
+	<br><br><br><br><br> <footer> <b><p>Diseño por Jano Phatouros y Manuel Muñoz</p><strong> </footer>   
+	
+
+	
+</body>
+</html>
+

@@ -1,0 +1,151 @@
+
+header {
+	color: #212F3D;
+   text-align: center;
+   font-size: 3em;
+   font-family: 'Raleway', sans-serif;
+}
+
+nav	{
+	background-color:#f6f4f3;
+	height: 50px;
+  font-family: 'Raleway', sans-serif;	
+}
+
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+nav ul li{
+	float: left;
+	padding: 0 20px;
+}
+nav > ul {
+  display: flex;
+  justify-content: center;
+}
+
+
+li {
+  margin: 0 .75rem;
+}
+nav ul li a{
+	color: black;
+	font-size: 20px;
+	line-height: 50px;
+	text-decoration: none;
+}
+
+nav ul li a: hover { 
+	color: white; 
+	 }
+
+.contenedor{
+	width: 1100px;
+	margin: 0 auto;
+}
+footer {
+	background-color: #9B9B9B;
+	text-align: center;
+	font-size:12px;
+	padding: 5px;
+	clear: both;
+}
+
+footer p{
+	color: black;
+  font-family: 'Raleway', sans-serif;	
+  font-size: 12px;
+}
+.texto {
+	font-size:22px;
+	font-family: 'Raleway', sans-serif;
+}
+p {
+	font-family: 'Raleway', sans-serif;	
+  font-size: 18px;
+  text-align: center;
+}
+h2 {
+	font-family: 'Raleway', sans-serif;	
+}
+video {
+	width: 100%;
+}
+.textoestadisticas {
+	font-size:19px;
+}
+.texttitle {
+	font-size: 48px;
+  color: #595959;
+  font-family: "AvenirLT-Black","Helvetica","Arial",sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+h3 {
+	text-align: center;
+  font-size: 16px;
+  font-family: "AvenirLT-Roman","Helvetica","Arial",sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #595959;
+  font-weight: 500;
+}
+#imgindex{
+	width: 100%;
+}
+
+table {     
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 12px;    
+  margin: auto;     
+  width: 480px;    
+  border-collapse: collapse;  
+  width: 100%;	
+  
+ }
+
+  td {    
+  	padding: 8px;     
+  	background: #e8edff;     
+  	border-bottom: 1px solid #fff;
+    color: #669;    
+    border-top: 1px solid transparent; 
+    text-align: center;
+  }
+  tr:hover td { 
+  	background: #d0dafd; 
+  	color: #339; 
+  }
+  caption {
+	text-align: center;
+  font-size: 16px;
+  font-family: "AvenirLT-Roman","Helvetica","Arial",sans-serif;
+  color: #595959;
+  font-weight: 500;
+}	
+
+form{
+	width:350px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#f6f4f3; 
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:black;
+	background-color:grey;
+} 
+	
